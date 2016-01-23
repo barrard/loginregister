@@ -1,0 +1,1 @@
+header('Location: http://dakine.co.nf/index.php');

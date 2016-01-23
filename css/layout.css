@@ -1,0 +1,134 @@
+body{
+	margin: 0px;
+	padding: 0;
+}
+
+#holder{
+	width: 980px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+
+#header{
+	display: block;
+	text-align: center;
+	height: 70px;
+	background-image: url(make.png);
+	background-repeat: no-repeat;
+	margin-bottom: 11px;
+}
+
+#header a{
+	height: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+#header:hover{
+	background-color: rgb(242,242,242);
+	}
+
+#header:hover a{
+	display: block;
+	color: #000;
+}
+
+#navbar{
+	height: 60px;
+	background-color: rgb(13, 13, 13);
+}
+
+
+#content{
+	border: 1px solid red;
+	height: auto;
+	clear: both;
+	overflow: auto;
+}
+
+#pageheading{
+	height: auto;
+	padding: 11px;
+}
+
+#contentleft{
+	/*border: 1px solid green;*/
+
+	width: 25%;
+	float: left;
+	padding-left: 11px;
+	padding-top: 11px;
+}
+
+#friendlist{
+		/*border: 1px solid blue;*/
+
+	width:100px;
+	display:block;
+	position: static;
+	bottom: 0px;
+
+}
+#contentright{
+/*		border: 1px solid black;
+*/
+	width: 50%;
+	float: right;
+}
+#hellomessage h6{
+	color:green;
+}
+#map{
+/*		border: 5px solid green;
+*/	float: right;
+	font-size: 70px;
+	display:inline-block;
+	height:400px;
+	width: 400px;
+}
+.wait{
+	color: red;
+}
+.go{
+	color:green;
+}
+
+#footer{
+	display:block;
+	height: 100px;
+}
+
+h1{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-weight: lighter;
+}
+
+h2{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	color: #999;
+}
+
+h6{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	color: #888;
+	font-size: 17px;
+}
+
+.styletextfield{
+	margin: 5px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	width: 200px;
+	height: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 6px;
+}
